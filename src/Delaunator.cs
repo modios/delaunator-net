@@ -20,7 +20,6 @@ namespace DelaunatorNet
         private readonly double[] _dists;
         private int _hullStart;
         private int _trianglesLen;
-        private int[] _hull;
         private int[] _triangles;
         private int[] _halfedges;
         private double _cx;
