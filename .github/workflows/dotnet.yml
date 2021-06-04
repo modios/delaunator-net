@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Add Nuget source
-      run: dotnet nuget add source https://nuget.pkg.github.com/modios/index.json
+      run: dotnet nuget add source --name github https://nuget.pkg.github.com/modios/index.json
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
